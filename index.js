@@ -25,3 +25,5 @@ app.post('/:link', (req, res) => {
     
     video.pipe(fs.createWriteStream(fpath, `${filename}.mp4`))
 })
+
+app.listen(80)
