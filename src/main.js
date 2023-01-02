@@ -2,10 +2,10 @@ const ytdl = require('youtube-dl')
 const fs = require('fs')
 const path = require('path')
 
-async function saveVideo(url, elm1, elm2, elm3) {
+async function saveVideo(form, elm1, elm2, elm3) {
   
   let filename 
-  const video = ytdl(url, ['--format=18'], { cwd: process.cwd() })
+  const video = ytdl(form.link.value, ['--format=18'], { cwd: process.cwd() })
   
   const path = path.join(__dirname + '/mp4')
   
