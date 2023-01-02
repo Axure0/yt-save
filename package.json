@@ -1,0 +1,19 @@
+{
+  "name": "yt-save",
+  "version": "1.0.0",
+  "description": "Simple application to download youtube videos without ads.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axure0/yt-save.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Axure0/yt-save/issues"
+  },
+  "homepage": "https://github.com/Axure0/yt-save#readme"
+}
